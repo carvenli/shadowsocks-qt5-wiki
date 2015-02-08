@@ -9,3 +9,4 @@
 
 How to
 - [Compile](https://github.com/librehat/shadowsocks-qt5/wiki/Compiling)
+- [Install](https://github.com/librehat/shadowsocks-qt5/wiki/Installation)
