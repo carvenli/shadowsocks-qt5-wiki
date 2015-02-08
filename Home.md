@@ -7,4 +7,5 @@
 
 # English Documentation
 
-_TODO_
+How to
+- [Compile](https://github.com/librehat/shadowsocks-qt5/wiki/Compiling)
