@@ -14,3 +14,7 @@ How to
 - [Install](https://github.com/librehat/shadowsocks-qt5/wiki/Installation)
 
 File an issue if there is any modifications needed.
+
+# Libraries used in releases
+
+You can download the pre-compiled `botan` libraries linked in Windows builds [here] (http://file.librehat.com/botan/). Note: they're statically linked. The filename indicates the build info.
