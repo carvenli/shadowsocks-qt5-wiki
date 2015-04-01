@@ -1,4 +1,4 @@
-# Libraries used in releases
+# Thrid-party libraries used in Windows prebuilt binaries
 
 ## Botan
 You can download pre-compiled `botan` libraries linked in Windows builds [here] (http://file.librehat.com/botan/). Note: they're statically linked. The filename indicates build information.
