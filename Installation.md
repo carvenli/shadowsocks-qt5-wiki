@@ -35,7 +35,7 @@ sudo yum install shadowsocks-qt5
 
 ## Ubuntu
 
-PPA is for Ubuntu >= 14.04. And you need to use Unity or LXDE, other DEs are untested. If you encouter segmentation fault with `Gdk-CRITICAL **` in other DEs, please follow instructions in **Debian** section to build `ss-qt5` without `UBUNTU_UNITY` support.
+PPA is for Ubuntu >= 14.04. If you don't need Ubuntu Unity support (application indicator), please follow instructions in **Debian** section to build `ss-qt5` without `UBUNTU_UNITY` support.
 
 ```
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
@@ -43,7 +43,7 @@ sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 
-If you want to build it manually with Unity support, add `DEFINES+="UBUNTU_UNITY"` to `qmake` to enable `appindicator` support.
+If you want to build it manually with application indicator support, add `DEFINES+="UBUNTU_UNITY"` to `qmake` to enable `appindicator` support.
 
 ## Debian
 
