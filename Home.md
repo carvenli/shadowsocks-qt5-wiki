@@ -16,5 +16,5 @@ Howtos
 Other information
 - [Third-party libraries used in Windows pre-built binaries](https://github.com/librehat/shadowsocks-qt5/wiki/Third-Party-Libraries)
 
-File an issue if there is any modifications needed.
+File an issue if there are any modifications needed.
 
