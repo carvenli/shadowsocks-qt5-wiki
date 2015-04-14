@@ -66,6 +66,10 @@ Then, install it by `sudo dpkg -i shadowsocks-qt5-<VER_ARCH_ETC>.deb`.
 
 [AUR](https://aur.archlinux.org/packages/shadowsocks-qt5/) maintained by ykelvis
 
+## Gentoo
+
+[gentoo-zh](https://github.com/microcai/gentoo-zh) maintained by microcai
+
 ## Other distributions
 
 Please follow instructions on [compiling](https://github.com/librehat/shadowsocks-qt5/wiki/Compiling) page to build it from source.
