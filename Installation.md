@@ -10,7 +10,7 @@ Require Windows Vista or higher
 
 ## Fedora/Red Hat Enterprise Linux
 
-The Copr builds RPMs for Fedora 20, 21, rawhide and RHEL 7. If you're using other RHEL-based distributions such as CentOS and Scientific Linux, you can just use the EPEL repo in Copr.
+The Copr builds RPMs for Fedora 20, 21, 22 and RHEL 7. If you're using other RHEL-based distributions such as CentOS and Scientific Linux, you can just use the EPEL repo in Copr.
 
 You can enable the repo via `dnf`:
 
@@ -43,7 +43,7 @@ sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 
-If you want to build it manually with application indicator support, add `DEFINES+="UBUNTU_UNITY"` to `qmake` to enable `appindicator` support.
+If you want to build it manually with application indicator support, add `DEFINES+="UBUNTU_UNITY"` to `qmake` to enable `appindicator` support (Note: the application indicator will only be used under Unity and XFCE).
 
 ## Debian
 
