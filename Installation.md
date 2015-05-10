@@ -45,7 +45,7 @@ sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 
-If you want to build it manually with application indicator support, add `DEFINES+="UBUNTU_UNITY"` to `qmake` to enable `appindicator` support (Note: the application indicator will only be used under Unity and XFCE).
+If you want to build it manually with application indicator support, add `DEFINES+="UBUNTU_UNITY"` to `qmake` to enable `appindicator` support (Note: whether to use application indicator is still determined at run-time).
 
 ## Debian
 
