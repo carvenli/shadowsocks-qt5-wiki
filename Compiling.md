@@ -7,7 +7,7 @@ Make sure you've installed all dependent **development** packages (with `-dev` o
 - `libQtShadowsocks` >= 1.6.0 (`libqtshadowsocks` in Debian/Ubuntu)
 - `botan` >= 1.10 (`libbotan1.10` in Debian/Ubuntu)
 - `zbar` (`libzbar0` in Debian/Ubuntu)
-- `libappindicator1` (optional, only if you want to build with `appindicator` support)
+- `libappindicator` (optional, `libappindicator1` in Debian/Ubuntu, only if you want to build with `appindicator` support)
 
 ## Compiling
 
