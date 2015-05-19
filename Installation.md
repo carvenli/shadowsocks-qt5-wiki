@@ -37,7 +37,7 @@ For RHEL 7 users, you may need to enable [EPEL7-Addons](http://copr.fedoraprojec
 
 ## Ubuntu
 
-PPA is for Ubuntu >= 14.04. If you don't need Ubuntu Unity support (application indicator), please follow instructions in **Debian** section to build `ss-qt5` without `UBUNTU_UNITY` support.
+PPA is for Ubuntu >= 14.04.
 
 ```
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
@@ -45,16 +45,11 @@ sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 
-If you want to build it manually with application indicator support, add `DEFINES+="UBUNTU_UNITY"` to `qmake` to enable `appindicator` support (Note: whether to use application indicator is still determined at run-time).
+_Note: whether to use application indicator or not is determined at run-time. You don't need to turn off the `UBUNTU_UNITY` at compile-time._
 
 ## Debian
 
-Since `v0.9`, the `debian` directory needs two modifications to get rid of Ubuntu Unity support.
-
-1. Edit `debian/rules`, remove `DEFINES+="UBUNTU_UNITY"` from `qmake`.
-2. Edit `debian/control`, delete `libappindicator-dev,` (line 12).
-
-Make sure you've installed all dependencies for building `ss-qt5` by `sudo apt-get install qt5-qmake qtbase5-dev libqrencode-dev libqtshadowsocks-dev libzbar-dev libbotan1.10-dev`
+Make sure you've installed all dependencies for building `ss-qt5` by `sudo apt-get install qt5-qmake qtbase5-dev libqrencode-dev libqtshadowsocks-dev libappindicator-dev libzbar-dev libbotan1.10-dev`
 
 Now run the command below, you'll get a deb package in upper directory.
 
