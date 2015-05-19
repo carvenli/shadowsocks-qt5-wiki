@@ -26,4 +26,4 @@ Some useful special arguments for `qmake` command
 |DEFINES+="UBUNTU_UNITY"|Turn on `appindicator` support|NULL|
 |DEFINES+="mingw64"|Use pre-compiled libraries from `mingw64` instead of `mingw32` (only for Windows)|NULL|
 
-Historically, application indicator was only used on Unity desktop environment. That's why `UBUNTU_UNITY` is used for the support for application indicator support. But it's no longer a Ubuntu thing and should be considered distro-neutral.
+Historically, application indicator was only used on Unity desktop environment. That's why the name `UBUNTU_UNITY` is picked for application indicator support. But it's no longer just a Ubuntu thing and should be considered distro-neutral. Therefore, for the sake of consistency, the name `UBUNTU_UNITY` remains unchanged.
