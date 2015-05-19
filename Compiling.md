@@ -25,3 +25,5 @@ Some useful special arguments for `qmake` command
 |BOTAN_VER="1.10"|Specify the `botan` library version|1.10|
 |DEFINES+="UBUNTU_UNITY"|Turn on `appindicator` support|NULL|
 |DEFINES+="mingw64"|Use pre-compiled libraries from `mingw64` instead of `mingw32` (only for Windows)|NULL|
+
+Historically, application indicator was only used on Unity desktop environment. That's why `UBUNTU_UNITY` is used for the support for application indicator support. But it's no longer a Ubuntu thing and should be considered distro-neutral.
