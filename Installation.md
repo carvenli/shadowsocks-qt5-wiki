@@ -33,8 +33,6 @@ sudo yum update
 sudo yum install shadowsocks-qt5
 ```
 
-For RHEL 7 users, you may need to enable [EPEL7-Addons](http://copr.fedoraproject.org/coprs/mmraka/epel7-addons/) copr so that `zbar` (one of dependencies) can be installed.
-
 ## Ubuntu
 
 PPA is for Ubuntu >= 14.04.
