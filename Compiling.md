@@ -7,7 +7,7 @@ Make sure you've installed all dependent **development** packages (with `-dev` o
 - `libQtShadowsocks` >= 1.6.0 (`libqtshadowsocks` in Debian/Ubuntu)
 - `botan` >= 1.10 (`libbotan1.10` in Debian/Ubuntu)
 - `zbar` (`libzbar0` in Debian/Ubuntu)
-- `libappindicator` (optional, `libappindicator1` in Debian/Ubuntu, only if `appindicator` support is needed)
+- `libappindicator` (`libappindicator1` in Debian/Ubuntu)
 
 ## Compiling
 
@@ -23,7 +23,4 @@ Some useful special arguments for `qmake` command
 |---------|------|-------|
 |INSTALL_PREFIX="/usr"|Specify the installation prefix directory|/usr|
 |BOTAN_VER="1.10"|Specify the `botan` library version|1.10|
-|DEFINES+="UBUNTU_UNITY"|Turn on `appindicator` support|NULL|
 |DEFINES+="mingw64"|Use pre-compiled libraries from `mingw64` instead of `mingw32` (only for Windows)|NULL|
-
-Historically, application indicator was only used on Unity desktop environment. That's why the name `UBUNTU_UNITY` is picked for application indicator support. But it's no longer just a Ubuntu thing and should be considered distro-neutral. Therefore, for the sake of consistency, the name `UBUNTU_UNITY` remains unchanged.
