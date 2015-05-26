@@ -23,4 +23,4 @@ Some useful special arguments for `qmake` command
 |---------|------|-------|
 |INSTALL_PREFIX="/usr"|Specify the installation prefix directory|/usr|
 |BOTAN_VER="1.10"|Specify the `botan` library version|1.10|
-|DEFINES+="mingw64"|Use pre-compiled libraries from `mingw64` instead of `mingw32` (only for Windows)|NULL|
+|DEFINES+="mingw64"|Use pre-compiled libraries from `mingw64` instead of `mingw32` (only on Windows)|NULL|
