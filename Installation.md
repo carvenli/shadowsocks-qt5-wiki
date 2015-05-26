@@ -45,8 +45,6 @@ sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 
-_Note: whether to use application indicator or not is determined at run-time. You don't need to turn off the `UBUNTU_UNITY` at compile-time._
-
 ## Debian
 
 Make sure you've installed all dependencies for building `ss-qt5` by `sudo apt-get install qt5-qmake qtbase5-dev libqrencode-dev libqtshadowsocks-dev libappindicator-dev libzbar-dev libbotan1.10-dev`
