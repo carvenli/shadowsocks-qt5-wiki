@@ -65,6 +65,6 @@ Then, install it by `sudo dpkg -i shadowsocks-qt5-<VER_ARCH_ETC>.deb`.
 
 ## Other distributions
 
-Please follow instructions on [compiling](https://github.com/librehat/shadowsocks-qt5/wiki/Compiling) page to build it from source.
+Please follow instructions on [compiling](Compiling) page to build it from source.
 
 If you're maintaining other distributions' repository for `ss-qt5`, please open an issue to ask for adding it to this wiki page.
