@@ -4,7 +4,7 @@ Make sure you've installed all dependent **development** packages (with `-dev` o
 
 - `qt5-qtbase` >= 5.2 (`qtbase5` in Debian/Ubuntu)
 - `qrencode` (`libqrencode` in Debian/Ubuntu)
-- `libQtShadowsocks` >= 1.6.0 (`libqtshadowsocks` in Debian/Ubuntu)
+- `libQtShadowsocks` >= 1.6.1 (`libqtshadowsocks` in Debian/Ubuntu. **DON'T** use the trunk code)
 - `botan` >= 1.10 (`libbotan1.10` in Debian/Ubuntu)
 - `zbar` (`libzbar0` in Debian/Ubuntu)
 - `libappindicator` (`libappindicator1` in Debian/Ubuntu)
