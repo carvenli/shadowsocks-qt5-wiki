@@ -10,7 +10,7 @@ Require Windows Vista or higher
 
 ## Fedora/Red Hat Enterprise Linux
 
-The Copr builds RPMs for Fedora 20, 21, 22 and RHEL 7. If you're using other RHEL-based distributions such as CentOS and Scientific Linux, you can just use the EPEL repo in Copr.
+The Copr builds RPMs for Fedora 21, 22, rawhide and RHEL 7. If you're using other RHEL-based distributions such as CentOS and Scientific Linux, you can just use the EPEL repo in Copr.
 
 You can enable the repo via `dnf`:
 
